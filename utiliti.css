@@ -1,0 +1,77 @@
+@import url('https://fonts.googleapis.com/css2?family=Oswald&display=swap');
+
+.flex-all-center{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    /* these property are container property */
+}
+.logo{
+    display: flex;
+    align-items: center;
+}
+.logo img{
+    width: 88px;
+    padding: 0 25px;
+}
+.container{
+    min-height: calc(100vh - 58px - 12vh);
+}
+.search{
+    display: flex;
+    align-items: center;
+}
+.search input{
+    width: 35vw;
+    height: 4vh;
+    border-radius: 1vh;
+    margin: 0 8px 0 112px;
+    padding: 0 12px;
+}
+.btn{
+background-color: var(--main-bg-color);
+color: white;
+border: 1px solid white;
+padding: 1px 6px;
+border-radius: 4px;
+cursor: pointer;
+font-family: 'Oswald', sans-serif;
+}
+.slider{
+    display: flex;
+    justify-content: center;
+    text-align: center;
+    margin: 12px auto;
+    overflow: hidden;
+}
+.card{
+    max-width: 91vw;
+    margin: 37px auto;
+    font-family: 'Oswald', sans-serif;
+}
+.card h2{
+    font-family: 'Oswald', sans-serif;
+}
+.my-2{
+       margin: 16px 38px;;
+}
+.text-center{
+    text-align: center;
+}
+.card_item{
+    display: inline-flex;
+    justify-self: center;
+    flex-direction: column;
+    margin: 0 36px;
+}
+
+.my-1{
+    margin: 5px 0;
+}
+.cards{
+    display: flex; 
+    align-items: center;
+    justify-content: center;
+    overflow: hidden;
+
+} 
